@@ -1,0 +1,180 @@
+{
+    // "vscode_custom_css.imports": [
+    //   "file:///Users/rakesh/.vscode/extensions/codevars.outrun-meets-synthwave-0.0.1/synthWaveStyles.css"
+    // ],
+    "workbench.tree.indent": 15,
+    // "editor.fontFamily": "\"Fira Code\",\"mononoki Nerd Font\", Menlo, Monaco, 'Courier New', monospace",
+    // "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.fontWeight": "normal",
+    "editor.cursorStyle": "block-outline",
+    "terminal.external.linuxExec": "iterm",
+    "editor.wordWrap": "on",
+    "breadcrumbs.enabled": false,
+    "search.searchOnType": false,
+    "terminal.integrated.gpuAcceleration": "on",
+    // "editor.codeLens": false,
+    // =================================================== 
+    "tabnine.experimentalAutoImports": true,
+    "settingsSync.ignoredSettings": [],
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 18,
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSurroundingLines": 5,
+    "editor.fontSize": 18,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.suggestFontSize": 14,
+    "editor.suggest.insertMode": "replace",
+    "prettier.semi": false,
+    "prettier.singleAttributePerLine": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "extensions.ignoreRecommendations": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "update.showReleaseNotes": false,
+    "workbench.settings.editor": "json",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    // Vim configuration
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.sneak": true,
+    "vim.foldfix": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.textColor": "white",
+    "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-w>": false,
+        "<C-p>": false,
+        "<C-x>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusActiveEditorGroup"
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        // Move selected lines while staying in visual mode
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        // toggle comment selection
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "remote.SSH.remotePlatform": {
+        "GHC HCSetup": "linux",
+        "GHC Rakesh": "linux"
+    },
+    "window.commandCenter": false,
+    "editor.minimap.enabled": false,
+    // "editor.codeActionsOnSave": {
+    //     "source.addMissingImports": "explicit",
+    //     "source.organizeImports": "explicit"
+    // },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "redhat.telemetry.enabled": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 6,
+    "workbench.colorTheme": "Vim Dark Hard"
+}
