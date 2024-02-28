@@ -1,0 +1,21 @@
+1. Andromeda
+2. Aura Theme
+3. Auto Close Tag
+4. Auto Rename Tag
+5. Black Formatter
+6. Code Runner
+7. Error Lens
+8. ES7+ React/Redux
+9. Indent Rainbow
+10. Gitlens
+11. Live Server
+12. Material Icon Theme
+13. Night Wolf
+14. Prettier
+15. Python
+16. Remote SSH
+17. Tabnine
+18. Tailwind CSS IntelliSense
+19. Vim
+20. Vim Cheatsheet
+21. Vim Theme
