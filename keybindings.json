@@ -1,0 +1,103 @@
+// Place your key bindings in this file to override the defaults
+[
+    // {
+    //   "key": "tab",
+    //   "command": "tab",
+    //   "when": "editorTextFocus && !editorTabMoves "
+    // },
+    {
+        "key": "shift+tab",
+        "command": "workbench.action.nextEditor",
+        "when": "editorTextFocus && !editorTabMoves"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+t", // Customize the key binding as desired
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "command": "workbench.action.toggleSidebarVisibility",
+        "key": "alt+e"
+    },
+    // {
+    //     "command": "workbench.files.action.focusFilesExplorer",
+    //     "key": "alt+e",
+    //     "when": "editorTextFocus"
+    // },
+    {
+        "command": "explorer.newFile",
+        "key": "a",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "workbench.action.files.openFile",
+        "when": "filesExplorerFocus && !inputFocus",
+        "key": "return"
+    },
+    {
+        "command": "explorer.newFolder",
+        "key": "f",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "renameFile",
+        "key": "r",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "filesExplorer.copy",
+        "key": "c",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "filesExplorer.paste",
+        "key": "p",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "deleteFile",
+        "key": "d",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    // {
+    //     "command": "editor.action.addSelectionToNextFindMatch",
+    //     "key": "ctrl+n",
+    //     "when": "editorFocus"
+    // },
+    // {
+    //     "command": "editor.action.addSelectionToNextFindMatch",
+    //     "key": "ctrl+n",
+    //     "when": "editorFocus"
+    // },
+    {
+        "command": "-workbench.action.files.save",
+        "key": "ctrl+s"
+    },
+    {
+        "command": "saveAll",
+        "key": "ctrl+s"
+    },
+    {
+        "key": "j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "alt+r",
+        "command": "workbench.action.terminal.new"
+    }
+]
