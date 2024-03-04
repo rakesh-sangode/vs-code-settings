@@ -1,12 +1,21 @@
-// Place your key bindings in this file to override the defaults
 [
-    // {
-    //   "key": "tab",
-    //   "command": "tab",
-    //   "when": "editorTextFocus && !editorTabMoves "
-    // },
     {
-        "key": "shift+tab",
+        "key": "shift+j",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "shift+k",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "shift+j",
+        "command": "workbench.action.previousEditor",
+        "when": "editorTextFocus && !editorTabMoves"
+    },
+    {
+        "key": "shift+k",
         "command": "workbench.action.nextEditor",
         "when": "editorTextFocus && !editorTabMoves"
     },
@@ -16,8 +25,13 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+t", // Customize the key binding as desired
+        "key": "ctrl+t",
         "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
     },
     {
         "key": "ctrl+k",
@@ -28,11 +42,11 @@
         "command": "workbench.action.toggleSidebarVisibility",
         "key": "alt+e"
     },
-    // {
-    //     "command": "workbench.files.action.focusFilesExplorer",
-    //     "key": "alt+e",
-    //     "when": "editorTextFocus"
-    // },
+    {
+        "command": "workbench.files.action.focusFilesExplorer",
+        "key": "alt+e",
+        "when": "editorTextFocus"
+    },
     {
         "command": "explorer.newFile",
         "key": "a",
@@ -99,5 +113,5 @@
     {
         "key": "alt+r",
         "command": "workbench.action.terminal.new"
-    }
+    },
 ]
