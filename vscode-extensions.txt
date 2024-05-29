@@ -19,3 +19,11 @@
 19. Vim
 20. Vim Cheatsheet
 21. Vim Theme
+22. Best Themes Redefinded
+23. Code Spell Checker
+24. Codeium
+25. MySQL
+26. Python Quick Print
+27. Quokka.js
+28. Remote - SSH
+29. Tailwind CSS IntelliSense

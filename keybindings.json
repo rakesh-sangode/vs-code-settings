@@ -1,117 +1,137 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "shift+j",
-        "command": "workbench.action.quickOpenNavigateNext",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "shift+k",
-        "command": "workbench.action.quickOpenNavigatePrevious",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "shift+j",
-        "command": "workbench.action.previousEditor",
-        "when": "editorTextFocus && !editorTabMoves"
-    },
-    {
-        "key": "shift+k",
-        "command": "workbench.action.nextEditor",
-        "when": "editorTextFocus && !editorTabMoves"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+t",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "workbench.action.terminal.kill",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus"
-    },
-    {
-        "command": "workbench.action.toggleSidebarVisibility",
-        "key": "alt+e"
-    },
-    {
-        "command": "workbench.files.action.focusFilesExplorer",
-        "key": "alt+e",
-        "when": "editorTextFocus"
-    },
-    {
-        "command": "explorer.newFile",
-        "key": "a",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "command": "workbench.action.files.openFile",
-        "when": "filesExplorerFocus && !inputFocus",
-        "key": "return"
-    },
-    {
-        "command": "explorer.newFolder",
-        "key": "f",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "command": "renameFile",
-        "key": "r",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "command": "filesExplorer.copy",
-        "key": "c",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "command": "filesExplorer.paste",
-        "key": "p",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "command": "deleteFile",
-        "key": "d",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    // {
-    //     "command": "editor.action.addSelectionToNextFindMatch",
-    //     "key": "ctrl+n",
-    //     "when": "editorFocus"
-    // },
-    // {
-    //     "command": "editor.action.addSelectionToNextFindMatch",
-    //     "key": "ctrl+n",
-    //     "when": "editorFocus"
-    // },
-    {
-        "command": "-workbench.action.files.save",
-        "key": "ctrl+s"
-    },
-    {
-        "command": "saveAll",
-        "key": "ctrl+s"
-    },
-    {
-        "key": "j",
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetVisible"
-    },
-    {
-        "key": "k",
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetVisible"
-    },
-    {
-        "key": "alt+r",
-        "command": "workbench.action.terminal.new"
-    },
+  {
+    "key": "alt+s",
+    "command": "codesnapshot.init"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.duplicateSelection"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "polacode.activate"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
+  },
+  {
+    "key": "shift+j",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "shift+k",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus && !editorTabMoves"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus && !editorTabMoves"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "alt+e"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "alt+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "workbench.action.files.openFile",
+    "when": "filesExplorerFocus && !inputFocus",
+    "key": "return"
+  },
+  {
+    "command": "explorer.newFolder",
+    "key": "f",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "c",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.cut",
+    "key": "x",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "shift+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "alt+r",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.fold"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.unfold"
+  },
+  {
+    "key": "alt+d",
+    "command": "workbench.view.extension.github-cweijan-mysql"
+  }
 ]
