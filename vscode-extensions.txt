@@ -27,3 +27,6 @@
 27. Quokka.js
 28. Remote - SSH
 29. Tailwind CSS IntelliSense
+30. Catppuccin Perfect Icons
+31. Monokai Pro
+32. Palenight Theme

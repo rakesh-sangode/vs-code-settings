@@ -1,0 +1,9 @@
+1. Brave
+2. Zen
+3. 7zip
+4. Flow Launcher
+5. PowerToys
+6. Nilesoft shell
+7. Postman
+8. Trae (IDE)
+9. Cursor (IDE)

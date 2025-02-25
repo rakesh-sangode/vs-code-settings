@@ -2,10 +2,15 @@
   // Editor Configuration
   "workbench.tree.indent": 15,
   // "editor.fontFamily": "\"Fira Code\",\"mononoki Nerd Font\", Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "Fira Code",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  // "editor.fontFamily": "FiraCode Nerd Font",
+  // "editor.fontFamily": "JetBrains Mono",
   // "editor.fontFamily": "Dank Mono",
   // "editor.fontFamily": "Operator Mono",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#9F2B68"
+  },
+  // "editor.fontFamily": "Geist Mono",
+  "editor.fontFamily": "'Fira Code Retina'",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
@@ -15,7 +20,7 @@
   "editor.scrollbar.horizontal": "auto",
   "editor.scrollbar.vertical": "auto",
   "editor.cursorSurroundingLines": 5,
-  "editor.fontSize": 18,
+  "editor.fontSize": 19,
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
   "editor.inlineSuggest.enabled": true,
@@ -31,7 +36,6 @@
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.mouseWheelZoom": true,
-  "workbench.sideBar.location": "right",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -46,31 +50,41 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // "[python]": {
-  //     "editor.defaultFormatter": "ms-python.black-formatter",
+  //   "editor.defaultFormatter": "ms-python.black-formatter",
+  //   "editor.formatOnSave": true
   // },
+  "python.analysis.autoImportCompletions": true,
+  "python.autoComplete.extraPaths": ["${workspaceFolder}/src"],
+  "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+  "python.analysis.indexing": true,
+  "python.analysis.packageIndexDepths": [
+    { "name": "", "depth": 20, "includeAllSymbols": true }
+  ],
   // Terminal Configuration
   "terminal.external.linuxExec": "iterm",
   "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "remote.SSH.remotePlatform": {
     "GHC HCSetup": "linux",
-    "GHC Rakesh": "linux"
+    "GHC Rakesh": "linux",
+    "HC_Setup": "linux",
+    "POSA_GO Rakesh": "linux",
+    "POSA_GO_Rakesh": "linux"
   },
   // Workbench and Windows Configuration
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
-  "window.zoomLevel": 0.5,
   "window.menuBarVisibility": "compact",
+  "workbench.tips.enabled": false,
   "workbench.activityBar.location": "top",
   // "workbench.layoutControl.enabled": false,
   "workbench.settings.editor": "json",
-  "window.commandCenter": false,
   "search.searchOnType": false,
   "tabnine.experimentalAutoImports": true,
   "settingsSync.ignoredSettings": [],
@@ -89,7 +103,6 @@
   "symbols.hidesExplorerArrows": false,
   "material-icon-theme.folders.color": "#26a69a",
   "material-icon-theme.activeIconPack": "angular",
-  "workbench.colorTheme": "Best Themes - Ayu Darkvenom",
 
   // Vim configuration
   "vim.incsearch": true,
@@ -213,5 +226,23 @@
     }
   ],
   "material-icon-theme.folders.theme": "specific",
-  "bracketPairColorizer.depreciation-notice": false
+  "bracketPairColorizer.depreciation-notice": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "security.workspace.trust.enabled": true,
+
+  // APC Customize UI ++
+  // "apc.imports": [
+  //   "/C:/Users/Rakesh/Documents/custom-vscode.css",
+  //   "/C:/Users/Rakesh/Documents/vscode-script.js"
+  // ],
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/Rakesh/Documents/custom-vscode.css",
+    "file:///C:/Users/Rakesh/Documents/vscode-script.js"
+  ],
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Alt Catppuccin Mocha",
+  "workbench.sideBar.location": "right",
+  "cSpell.userWords": ["corsheaders", "simplejwt"]
 }
